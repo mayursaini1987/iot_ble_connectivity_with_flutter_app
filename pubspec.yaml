@@ -1,0 +1,24 @@
+name: iot_arduino_bluetooth_connect
+description: "A lightweight, callback-driven Flutter SDK library for connecting and communicating with Arduino and IoT devices via Bluetooth (BLE and Classic)."
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ^3.13.2
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue_plus:
+  flutter_bluetooth_serial_plus:
+  permission_handler:
+  flutter_screenutil:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+
+flutter:
+  uses-material-design: true
